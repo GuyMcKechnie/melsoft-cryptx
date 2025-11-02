@@ -1,17 +1,27 @@
+import {
+    LayoutDashboard,
+    Wallet2,
+    LineChart,
+    BarChart3,
+    Bell,
+    Settings,
+    LifeBuoy,
+    LogOut,
+} from "lucide-react";
 import logoMark from "../../assets/cryptx-logo.svg";
 
 const primaryNav = [
-    { label: "Dashboard", active: true },
-    { label: "Portfolio" },
-    { label: "Market Overview" },
-    { label: "Analytics" },
-    { label: "Alerts" },
+    { label: "Dashboard", active: true, icon: LayoutDashboard },
+    { label: "Portfolio", icon: Wallet2 },
+    { label: "Market Overview", icon: LineChart },
+    { label: "Analytics", icon: BarChart3 },
+    { label: "Alerts", icon: Bell },
 ];
 
 const secondaryNav = [
-    { label: "Settings" },
-    { label: "Support" },
-    { label: "Logout" },
+    { label: "Settings", icon: Settings },
+    { label: "Support", icon: LifeBuoy },
+    { label: "Logout", icon: LogOut },
 ];
 
 const Sidebar = () => (
@@ -36,45 +46,64 @@ const Sidebar = () => (
 
             <nav className="lg:hidden">
                 <ul className="flex items-center gap-2 overflow-x-auto whitespace-nowrap">
-                    {primaryNav.map((item) => (
-                        <li key={item.label}>
-                            <button
-                                type="button"
-                                className={`rounded-full px-4 py-2 text-xs font-semibold transition-colors hover:bg-primary/10 hover:text-primary ${
-                                    item.active
-                                        ? "bg-primary text-white shadow-subtle"
-                                        : "bg-white/5 text-muted"
-                                }`}
-                            >
-                                {item.label}
-                            </button>
-                        </li>
-                    ))}
+                    {primaryNav.map((item) => {
+                        const Icon = item.icon;
+                        return (
+                            <li key={item.label}>
+                                <button
+                                    type="button"
+                                    className={`flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition-colors hover:bg-primary/10 hover:text-primary ${
+                                        item.active
+                                            ? "bg-primary text-white shadow-subtle"
+                                            : "bg-white/5 text-muted"
+                                    }`}
+                                >
+                                    {Icon ? (
+                                        <Icon aria-hidden className="h-4 w-4" />
+                                    ) : null}
+                                    {item.label}
+                                </button>
+                            </li>
+                        );
+                    })}
                 </ul>
             </nav>
 
             <nav className="hidden lg:block">
                 <ul className="flex flex-col gap-2">
-                    {primaryNav.map((item) => (
-                        <li key={item.label}>
-                            <button
-                                type="button"
-                                className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium transition-colors hover:bg-primary/10 hover:text-primary ${
-                                    item.active
-                                        ? "bg-primary/10 text-primary"
-                                        : "text-muted"
-                                }`}
-                            >
-                                <span>{item.label}</span>
-                                {item.active && (
-                                    <span
-                                        className="h-2 w-2 rounded-full bg-primary"
-                                        aria-hidden="true"
-                                    />
-                                )}
-                            </button>
-                        </li>
-                    ))}
+                    {primaryNav.map((item) => {
+                        const Icon = item.icon;
+                        return (
+                            <li key={item.label}>
+                                <button
+                                    type="button"
+                                    className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium transition-colors hover:bg-primary/10 hover:text-primary ${
+                                        item.active
+                                            ? "bg-primary/10 text-primary"
+                                            : "text-muted"
+                                    }`}
+                                >
+                                    <span className="flex items-center gap-3">
+                                        {Icon ? (
+                                            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/5">
+                                                <Icon
+                                                    aria-hidden
+                                                    className="h-4 w-4"
+                                                />
+                                            </span>
+                                        ) : null}
+                                        {item.label}
+                                    </span>
+                                    {item.active && (
+                                        <span
+                                            className="h-2 w-2 rounded-full bg-primary"
+                                            aria-hidden="true"
+                                        />
+                                    )}
+                                </button>
+                            </li>
+                        );
+                    })}
                 </ul>
             </nav>
         </div>
@@ -89,20 +118,33 @@ const Sidebar = () => (
             </div>
             <nav>
                 <ul className="flex flex-col gap-2 pt-2">
-                    {secondaryNav.map((item) => (
-                        <li key={item.label}>
-                            <button
-                                type="button"
-                                className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium text-muted transition-colors hover:bg-white/5 hover:text-white"
-                            >
-                                <span>{item.label}</span>
-                                <span
-                                    className="h-2 w-2 rounded-full bg-white/10"
-                                    aria-hidden="true"
-                                />
-                            </button>
-                        </li>
-                    ))}
+                    {secondaryNav.map((item) => {
+                        const Icon = item.icon;
+                        return (
+                            <li key={item.label}>
+                                <button
+                                    type="button"
+                                    className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium text-muted transition-colors hover:bg-white/5 hover:text-white"
+                                >
+                                    <span className="flex items-center gap-3">
+                                        {Icon ? (
+                                            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/5">
+                                                <Icon
+                                                    aria-hidden
+                                                    className="h-4 w-4"
+                                                />
+                                            </span>
+                                        ) : null}
+                                        {item.label}
+                                    </span>
+                                    <span
+                                        className="h-2 w-2 rounded-full bg-white/10"
+                                        aria-hidden="true"
+                                    />
+                                </button>
+                            </li>
+                        );
+                    })}
                 </ul>
             </nav>
         </div>

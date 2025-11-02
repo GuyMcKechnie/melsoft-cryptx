@@ -1,3 +1,5 @@
+import { Search, Wifi } from "lucide-react";
+
 const quickFilters = ["1D", "1W", "1M", "3M", "1Y"];
 
 const Header = () => (
@@ -17,7 +19,9 @@ const Header = () => (
                         type="button"
                         className="hidden items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-sm font-medium text-white transition hover:border-primary hover:text-primary lg:flex"
                     >
-                        <span className="flex h-2 w-2 rounded-full bg-success" />
+                        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-success/15 text-success">
+                            <Wifi aria-hidden className="h-4 w-4" />
+                        </span>
                         Live sync enabled
                     </button>
                     <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-primary to-accent text-lg font-semibold">
@@ -29,21 +33,7 @@ const Header = () => (
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                 <div className="relative w-full md:max-w-sm">
                     <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-muted">
-                        <svg
-                            width="16"
-                            height="16"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M21 21L16.65 16.65M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
-                                stroke="currentColor"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
-                        </svg>
+                        <Search aria-hidden className="h-4 w-4" />
                     </span>
                     <input
                         type="search"

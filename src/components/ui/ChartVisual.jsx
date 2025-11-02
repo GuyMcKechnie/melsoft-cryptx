@@ -1,6 +1,9 @@
+import { ArrowDownRight, ArrowUpRight } from "lucide-react";
+
 const ChartVisual = ({ summary, timeline, path }) => {
-    const changeColor =
-        summary.changeDirection === "up" ? "text-success" : "text-danger";
+    const isTrendingUp = summary.changeDirection === "up";
+    const changeColor = isTrendingUp ? "text-success" : "text-danger";
+    const DirectionIcon = isTrendingUp ? ArrowUpRight : ArrowDownRight;
 
     return (
         <section className="flex flex-col gap-6 rounded-2xl bg-surface-alt p-6 shadow-card lg:p-8">
@@ -14,8 +17,9 @@ const ChartVisual = ({ summary, timeline, path }) => {
                             {summary.price}
                         </span>
                         <span
-                            className={`rounded-full bg-white/5 px-3 py-1 text-xs font-semibold ${changeColor}`}
+                            className={`flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs font-semibold ${changeColor}`}
                         >
+                            <DirectionIcon aria-hidden className="h-4 w-4" />
                             {summary.changeLabel}
                         </span>
                     </div>
