@@ -1,5 +1,5 @@
 export const btcSummary = {
-    pair: 'BTC / USDT',
+    pair: 'BTC / ZAR',
     price: 'R913,352.96',
     changeLabel: '+2.84%',
     changeDirection: 'up',
