@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,
+    body,
+    #root {
+        height: 100%;
+    }
+
+    body {
+        @apply bg-background text-white antialiased;
+    }
+}
+
+@layer utilities {
+    .grid-auto-fill-card {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
