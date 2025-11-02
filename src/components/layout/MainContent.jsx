@@ -1,24 +1,20 @@
 import MetricCard from "../ui/MetricCard";
 import ChartVisual from "../ui/ChartVisual";
 import TransactionTable from "../ui/TransactionTable";
-import {
-    btcSummary,
-    chartTimeline,
-    chartPath,
-} from "../../data/chartStaticData";
+import { btcSummary, chartTimeline } from "../../data/chartStaticData";
 import { transactionData } from "../../data/transactionData";
 
 const metricSummary = [
     {
         title: "Total Portfolio Value",
-        value: "$1,248,920.32",
+        value: "R1,248,920.32",
         delta: 3.21,
         deltaLabel: "vs. last week",
         caption: "Across 12 connected custodial wallets.",
     },
     {
         title: "24H Profit / Loss",
-        value: "+$28,432.17",
+        value: "+R28,432.17",
         delta: 1.87,
         deltaLabel: "Projected at current trend",
         caption:
@@ -26,7 +22,7 @@ const metricSummary = [
     },
     {
         title: "Stablecoin Liquidity",
-        value: "$382,190.45",
+        value: "$R82,190.45",
         delta: -0.86,
         deltaLabel: "Redeploy suggestion",
         caption:
@@ -50,12 +46,7 @@ const MainContent = () => (
                     <MetricCard key={metric.title} {...metric} />
                 ))}
             </section>
-
-            <ChartVisual
-                summary={btcSummary}
-                timeline={chartTimeline}
-                path={chartPath}
-            />
+            <ChartVisual summary={btcSummary} timeline={chartTimeline} />
 
             <TransactionTable rows={transactionData} />
         </div>
