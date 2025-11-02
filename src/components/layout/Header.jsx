@@ -29,34 +29,6 @@ const Header = () => (
                     </div>
                 </div>
             </div>
-
-            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                <div className="relative w-full md:max-w-sm">
-                    <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-muted">
-                        <Search aria-hidden className="h-4 w-4" />
-                    </span>
-                    <input
-                        type="search"
-                        placeholder="Search transactions, wallets, or tokens"
-                        className="w-full rounded-full border border-white/10 bg-white/5 py-3 pl-12 pr-4 text-sm text-white placeholder:text-muted focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/30"
-                    />
-                </div>
-                <div className="flex items-center gap-2">
-                    {quickFilters.map((filter) => (
-                        <button
-                            key={filter}
-                            type="button"
-                            className={`rounded-full px-4 py-2 text-xs font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
-                                filter === "1M"
-                                    ? "bg-primary text-white shadow-subtle"
-                                    : "bg-white/5 text-muted hover:bg-primary/10 hover:text-primary"
-                            }`}
-                        >
-                            {filter}
-                        </button>
-                    ))}
-                </div>
-            </div>
         </div>
     </header>
 );

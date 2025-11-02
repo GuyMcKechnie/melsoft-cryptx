@@ -30,13 +30,6 @@ const TransactionTable = ({ rows }) => (
                     accounts.
                 </p>
             </div>
-            <button
-                type="button"
-                className="flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-xs font-semibold text-white transition hover:border-primary hover:text-primary"
-            >
-                <Download aria-hidden className="h-4 w-4" />
-                Export CSV
-            </button>
         </div>
 
         <div className="mt-6 overflow-x-auto">

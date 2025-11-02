@@ -14,15 +14,9 @@ const primaryNav = [
     { label: "Dashboard", active: true, icon: LayoutDashboard },
     { label: "Portfolio", icon: Wallet2 },
     { label: "Market Overview", icon: LineChart },
-    { label: "Analytics", icon: BarChart3 },
-    { label: "Alerts", icon: Bell },
 ];
 
-const secondaryNav = [
-    { label: "Settings", icon: Settings },
-    { label: "Support", icon: LifeBuoy },
-    { label: "Logout", icon: LogOut },
-];
+const secondaryNav = [{ label: "Logout", icon: LogOut }];
 
 const Sidebar = () => (
     <aside className="bg-surface text-white shadow-card lg:shadow-none lg:fixed lg:inset-y-0 lg:left-0 lg:w-72 w-full flex flex-col lg:justify-between z-40">
