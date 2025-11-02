@@ -7,7 +7,7 @@ const MetricCard = ({ title, value, delta, deltaLabel, caption }) => {
 
     return (
         <article className="flex h-full flex-col justify-between rounded-xl bg-surface-alt p-6 shadow-subtle transition-transform hover:-translate-y-1 hover:shadow-card">
-            <div className="flex items-center justify-between">
+            <div className="flex items-start justify-between gap-4">
                 <h2 className="text-sm font-medium text-muted">{title}</h2>
                 <span
                     className={`flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold ${
@@ -20,12 +20,14 @@ const MetricCard = ({ title, value, delta, deltaLabel, caption }) => {
                     {formattedDelta}
                 </span>
             </div>
-            <div className="mt-5 flex items-end justify-between">
-                <p className="text-2xl font-semibold tracking-tight text-white lg:text-3xl">
+            <div className="mt-5">
+                <p className="text-2xl font-semibold tracking-tight text-white lg:text-3xl whitespace-nowrap">
                     {value}
                 </p>
                 {deltaLabel ? (
-                    <span className="text-xs text-muted">{deltaLabel}</span>
+                    <span className="mt-2 block text-xs text-muted">
+                        {deltaLabel}
+                    </span>
                 ) : null}
             </div>
             {caption ? (
