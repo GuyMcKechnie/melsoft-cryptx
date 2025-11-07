@@ -1,0 +1,4697 @@
+/* Overview */
+
+position: relative;
+width: 1440px;
+height: 1025px;
+
+background: #ffffff;
+border-radius: 20px;
+
+/* Sidebar */
+
+position: absolute;
+width: 263px;
+height: 1025px;
+left: 0px;
+top: 0px;
+
+background: #f3f3f3;
+
+/* Bg */
+
+position: absolute;
+width: 256px;
+height: 1234px;
+left: 0px;
+top: 0px;
+
+border-radius: 0px;
+
+/* Top Menu */
+
+position: absolute;
+width: 166px;
+height: 416px;
+left: 40px;
+top: 136px;
+
+/* General */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 166px;
+height: 416px;
+left: 40px;
+top: 136px;
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 11px 8px 0px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon/element-3 */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 8.13%;
+right: 86.75%;
+top: 6.25%;
+bottom: 67.22%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 8.13%;
+right: 86.75%;
+top: 42.19%;
+bottom: 31.25%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 1.2%;
+right: 93.67%;
+top: 6.25%;
+bottom: 67.22%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 1.2%;
+right: 93.67%;
+top: 42.19%;
+bottom: 31.25%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* Overview */
+
+width: 67px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Main/Linear */
+color: #6154f0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Icon/graph */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 6.78%;
+right: 86.66%;
+top: 5.82%;
+bottom: 60.16%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0.75%;
+right: 87.49%;
+top: 10.17%;
+bottom: 28.91%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+
+/* Chart */
+
+width: 40px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon/wallet-2 */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 3.77%;
+right: 91.72%;
+top: 25.78%;
+bottom: 69.53%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 9.71%;
+right: 86.3%;
+top: 28.75%;
+bottom: 53.75%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0.75%;
+right: 86.9%;
+top: 8.59%;
+bottom: 33.59%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* Transactions */
+
+width: 91px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Icon/wallet-minus */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 5.27%;
+right: 90.81%;
+top: 47.66%;
+bottom: 47.66%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 2.68%;
+right: 91.78%;
+top: 3.91%;
+bottom: 67.31%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 5.55%;
+right: 88.2%;
+top: 5.56%;
+bottom: 67.91%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0.9%;
+right: 86.43%;
+top: 26.78%;
+bottom: 28.91%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0.9%;
+right: 95.36%;
+top: 14.96%;
+bottom: 53.28%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 10.57%;
+right: 86.44%;
+top: 16.7%;
+bottom: 53.28%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+
+/* Wallet */
+
+width: 44px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Icon/sms */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0.75%;
+right: 86.3%;
+top: 8.59%;
+bottom: 33.59%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 3.76%;
+right: 89.31%;
+top: 25.76%;
+bottom: 59.78%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+
+/* Mail Box */
+
+width: 57px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Icon/setting-2 */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 4.97%;
+right: 90.51%;
+top: 25.78%;
+bottom: 50.78%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0.75%;
+right: 86.28%;
+top: 5.66%;
+bottom: 30.64%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+
+/* Setting */
+
+width: 49px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 20px;
+
+width: 166px;
+height: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Icon/logout */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 4.91%;
+right: 86.6%;
+top: 5.41%;
+bottom: 30.41%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 1.73%;
+right: 90.51%;
+top: 35.16%;
+bottom: 60.16%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 1.06%;
+right: 96.03%;
+top: 24.7%;
+bottom: 49.69%;
+
+/* Text/10 */
+background: #9e9e9e;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85.54%;
+top: 0%;
+bottom: 25%;
+
+opacity: 0;
+
+/* Logout */
+
+width: 48px;
+height: 21px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Logo */
+
+position: absolute;
+width: 170px;
+height: 41px;
+left: 40px;
+top: 32px;
+
+/* CryptX */
+
+position: absolute;
+left: 28.82%;
+right: 27.65%;
+top: 19.51%;
+bottom: 19.51%;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* Logo */
+
+position: absolute;
+left: 1.76%;
+right: 77.06%;
+top: 24.39%;
+bottom: 26.83%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 3.33%;
+top: 0%;
+bottom: 0%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 2.78%;
+right: 0.55%;
+top: 0%;
+bottom: 0%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Ellipse 71 */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 225px;
+top: 144px;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Header */
+
+position: absolute;
+width: 1098px;
+height: 73px;
+left: 302px;
+top: 32px;
+
+/* Search bar */
+
+position: absolute;
+width: 355px;
+height: 40px;
+left: 0px;
+top: 1px;
+
+/* Group 78 */
+
+position: absolute;
+width: 355px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Rectangle 46 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 355px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Stroke */
+border: 1px solid #e4e4e4;
+border-radius: 10px;
+
+/* text */
+
+position: absolute;
+width: 172px;
+height: 18px;
+left: 15px;
+top: 11px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/50 */
+color: #828282;
+
+/* Icon/search-normal */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 321px;
+top: 11px;
+
+/* Vector */
+
+position: absolute;
+left: 90.69%;
+right: 4.98%;
+top: 29.84%;
+bottom: 31.72%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 94.49%;
+right: 4.77%;
+top: 63.6%;
+bottom: 29.84%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 90.42%;
+right: 4.51%;
+top: 27.5%;
+bottom: 27.5%;
+
+/* Text/50 */
+background: #828282;
+opacity: 0;
+
+/* Icon/notification */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 804px;
+top: 9px;
+
+/* Vector */
+
+position: absolute;
+left: 73.52%;
+right: 24.89%;
+top: 15.3%;
+bottom: 59.55%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 74.08%;
+right: 25.44%;
+top: 13.94%;
+bottom: 82.27%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 73.98%;
+right: 25.34%;
+top: 38.44%;
+bottom: 56.43%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 73.22%;
+right: 24.59%;
+top: 12.33%;
+bottom: 54.79%;
+
+/* Text/50 */
+background: #828282;
+opacity: 0;
+
+/* User Account */
+
+position: absolute;
+width: 152px;
+height: 41px;
+left: 946px;
+top: 0px;
+
+/* Avatar */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 946px;
+top: 0px;
+
+/* Text/10 */
+background: #9e9e9e;
+border-radius: 50px;
+
+/* @laurice22 */
+
+position: absolute;
+width: 67px;
+height: 18px;
+left: 996px;
+top: 23px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/50 */
+color: #828282;
+
+/* Laurice */
+
+position: absolute;
+width: 52px;
+height: 21px;
+left: 997px;
+top: 0px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* Icon/arrow-down */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1074px;
+top: 9px;
+
+/* Vector */
+
+position: absolute;
+left: 98.52%;
+right: 0.7%;
+top: 25.87%;
+bottom: 67.25%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 97.81%;
+right: 0%;
+top: 12.33%;
+bottom: 54.79%;
+
+opacity: 0;
+
+/* help */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 858px;
+top: 9px;
+
+/* help */
+
+position: absolute;
+width: 21.5px;
+height: 21.5px;
+left: 1.25px;
+top: 1.25px;
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 5.21%;
+right: 5.21%;
+top: 5.21%;
+bottom: 5.21%;
+
+/* Text/50 */
+background: #828282;
+
+/* help */
+
+position: absolute;
+width: 6.5px;
+height: 12px;
+left: 8.75px;
+top: 6.25px;
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 36.46%;
+right: 36.46%;
+top: 26.04%;
+bottom: 38.54%;
+
+/* Text/50 */
+background: #828282;
+
+/* Vector */
+
+position: absolute;
+left: 45.83%;
+right: 45.83%;
+top: 67.71%;
+bottom: 23.96%;
+
+/* Text/50 */
+background: #828282;
+
+/* Line 53 */
+
+position: absolute;
+width: 1098px;
+height: 0px;
+left: 0px;
+top: 73px;
+
+/* Stroke */
+border: 1px solid #e4e4e4;
+
+/* Card content */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 302px;
+top: 149px;
+
+/* Rectangle 549 */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 0px;
+top: 0px;
+
+/* White */
+background: #ffffff;
+box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Icon/arrow-up */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 143px;
+top: 48px;
+
+/* Vector */
+
+position: absolute;
+left: 58.24%;
+right: 37.6%;
+top: 26.41%;
+bottom: 70.8%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 56.75%;
+right: 36.11%;
+top: 23.41%;
+bottom: 67.8%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* +0.25% */
+
+position: absolute;
+width: 51px;
+height: 23px;
+left: 171px;
+top: 46px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+/* Sec/100 */
+color: #1ecb4f;
+
+/* Amount */
+
+position: absolute;
+width: 106px;
+height: 42px;
+left: 30px;
+top: 108px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 90px;
+height: 21px;
+left: 30px;
+top: 155px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 333 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Rectangle 748 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Sec/100 */
+background: #fabc1e;
+border-radius: 10px;
+
+/* Icon/bitcoin-(btc) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 44px;
+top: 46px;
+
+/* BG 203 */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+/* Vector */
+
+position: absolute;
+left: 21.24%;
+right: 75.91%;
+top: 28.66%;
+bottom: 69.96%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 18.25%;
+right: 73.81%;
+top: 23.41%;
+bottom: 66.83%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 21.24%;
+right: 76.34%;
+top: 26.54%;
+bottom: 72.08%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+opacity: 0;
+
+/* Card content */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 584px;
+top: 149px;
+
+/* Rectangle 550 */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 0px;
+top: 0px;
+
+/* White */
+background: #ffffff;
+box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Icon/arrow-up */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 143px;
+top: 48px;
+
+/* Vector */
+
+position: absolute;
+left: 58.24%;
+right: 37.6%;
+top: 26.41%;
+bottom: 70.8%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 56.75%;
+right: 36.11%;
+top: 23.41%;
+bottom: 67.8%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* +0.25% */
+
+position: absolute;
+width: 51px;
+height: 23px;
+left: 171px;
+top: 46px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+/* Sec/100 */
+color: #1ecb4f;
+
+/* Amount */
+
+position: absolute;
+width: 98px;
+height: 42px;
+left: 30px;
+top: 108px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 107px;
+height: 21px;
+left: 30px;
+top: 155px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 334 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Rectangle 748 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Main/Linear */
+background: #6154f0;
+border-radius: 10px;
+
+/* Icon/ethereum-(eth) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 44px;
+top: 46px;
+
+/* BG 121 */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+/* Vector */
+
+position: absolute;
+left: 20.1%;
+right: 75.65%;
+top: 29.41%;
+bottom: 66.95%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 20.78%;
+right: 76.35%;
+top: 26.94%;
+bottom: 70.78%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 22.55%;
+right: 75.22%;
+top: 23.73%;
+bottom: 72.12%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 19.66%;
+right: 78.12%;
+top: 23.74%;
+bottom: 72.06%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+opacity: 0;
+
+/* Card content */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 584px;
+top: 386px;
+
+/* Rectangle 750 */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 0px;
+top: 0px;
+
+/* White */
+background: #ffffff;
+box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Icon/arrow-up */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 143px;
+top: 48px;
+
+transform: rotate(-180deg);
+
+/* Vector */
+
+position: absolute;
+left: 58.23%;
+right: 37.6%;
+top: 26.41%;
+bottom: 70.8%;
+
+/* Sec/100 */
+background: #ff8d4d;
+transform: rotate(-180deg);
+
+/* Vector */
+
+position: absolute;
+left: 56.75%;
+right: 36.11%;
+top: 23.41%;
+bottom: 67.8%;
+
+opacity: 0;
+
+/* -2.05% */
+
+position: absolute;
+width: 49px;
+height: 23px;
+left: 171px;
+top: 46px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+/* Sec/100 */
+color: #ff8d4d;
+
+/* Amount */
+
+position: absolute;
+width: 86px;
+height: 42px;
+left: 30px;
+top: 108px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 107px;
+height: 21px;
+left: 30px;
+top: 155px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 335 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Rectangle 748 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Sec/100 */
+background: #1ecb4f;
+border-radius: 10px;
+
+/* Icon/cardano-(ada) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 44px;
+top: 46px;
+
+/* BG 201 */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+/* Group */
+
+position: absolute;
+left: 18.73%;
+right: 74.31%;
+top: 24.49%;
+bottom: 67.8%;
+
+/* Vector */
+
+position: absolute;
+left: 23.87%;
+right: 75.34%;
+top: 26.34%;
+bottom: 72.68%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 23.87%;
+right: 75.34%;
+top: 29.27%;
+bottom: 69.76%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 24.9%;
+right: 74.31%;
+top: 27.8%;
+bottom: 71.22%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 19.76%;
+right: 79.44%;
+top: 26.34%;
+bottom: 72.68%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 19.76%;
+right: 79.44%;
+top: 29.27%;
+bottom: 69.76%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 18.73%;
+right: 80.48%;
+top: 27.8%;
+bottom: 71.22%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 23.37%;
+right: 75.83%;
+top: 24.49%;
+bottom: 74.54%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 20.28%;
+right: 78.93%;
+top: 24.49%;
+bottom: 74.54%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 21.85%;
+right: 77.36%;
+top: 24.88%;
+bottom: 74.15%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 23.37%;
+right: 75.83%;
+top: 31.22%;
+bottom: 67.8%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 20.28%;
+right: 78.93%;
+top: 31.22%;
+bottom: 67.8%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 21.85%;
+right: 77.36%;
+top: 30.83%;
+bottom: 68.2%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 20.34%;
+right: 75.89%;
+top: 26.22%;
+bottom: 69.63%;
+
+/* Vector */
+
+position: absolute;
+left: 22.42%;
+right: 76.59%;
+top: 26.22%;
+bottom: 72.56%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 21.03%;
+right: 77.98%;
+top: 26.22%;
+bottom: 72.56%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 23.12%;
+right: 75.89%;
+top: 27.68%;
+bottom: 71.1%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 20.34%;
+right: 78.67%;
+top: 27.68%;
+bottom: 71.1%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 21.03%;
+right: 77.98%;
+top: 29.15%;
+bottom: 69.63%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 22.42%;
+right: 76.59%;
+top: 29.15%;
+bottom: 69.63%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 21.87%;
+right: 77.43%;
+top: 23.2%;
+bottom: 75.94%;
+
+/* Vector */
+
+position: absolute;
+left: 21.87%;
+right: 77.43%;
+top: 23.2%;
+bottom: 75.94%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 24%;
+right: 75.4%;
+top: 23.46%;
+bottom: 75.8%;
+
+/* Vector */
+
+position: absolute;
+left: 24%;
+right: 75.4%;
+top: 23.46%;
+bottom: 75.8%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 19.84%;
+right: 79.56%;
+top: 23.46%;
+bottom: 75.8%;
+
+/* Vector */
+
+position: absolute;
+left: 19.84%;
+right: 79.56%;
+top: 23.46%;
+bottom: 75.8%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 21.87%;
+right: 77.43%;
+top: 32.5%;
+bottom: 66.64%;
+
+/* Vector */
+
+position: absolute;
+left: 21.87%;
+right: 77.43%;
+top: 32.5%;
+bottom: 66.64%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 24%;
+right: 75.4%;
+top: 32.37%;
+bottom: 66.9%;
+
+/* Vector */
+
+position: absolute;
+left: 24%;
+right: 75.4%;
+top: 32.37%;
+bottom: 66.9%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 19.84%;
+right: 79.56%;
+top: 32.37%;
+bottom: 66.9%;
+
+/* Vector */
+
+position: absolute;
+left: 19.84%;
+right: 79.56%;
+top: 32.37%;
+bottom: 66.9%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 17.73%;
+right: 81.58%;
+top: 27.86%;
+bottom: 71.28%;
+
+/* Vector */
+
+position: absolute;
+left: 17.73%;
+right: 81.58%;
+top: 27.86%;
+bottom: 71.28%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 18.65%;
+right: 80.75%;
+top: 30.36%;
+bottom: 68.9%;
+
+/* Vector */
+
+position: absolute;
+left: 18.65%;
+right: 80.75%;
+top: 30.36%;
+bottom: 68.9%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 18.65%;
+right: 80.75%;
+top: 25.49%;
+bottom: 73.78%;
+
+/* Vector */
+
+position: absolute;
+left: 18.65%;
+right: 80.75%;
+top: 25.49%;
+bottom: 73.78%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 26.04%;
+right: 73.26%;
+top: 27.86%;
+bottom: 71.28%;
+
+/* Vector */
+
+position: absolute;
+left: 26.04%;
+right: 73.26%;
+top: 27.86%;
+bottom: 71.28%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 25.22%;
+right: 74.19%;
+top: 30.36%;
+bottom: 68.9%;
+
+/* Vector */
+
+position: absolute;
+left: 25.22%;
+right: 74.19%;
+top: 30.36%;
+bottom: 68.9%;
+
+/* White */
+background: #ffffff;
+
+/* Group */
+
+position: absolute;
+left: 25.22%;
+right: 74.19%;
+top: 25.49%;
+bottom: 73.78%;
+
+/* Vector */
+
+position: absolute;
+left: 25.22%;
+right: 74.19%;
+top: 25.49%;
+bottom: 73.78%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+opacity: 0;
+
+/* Card content */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 302px;
+top: 384px;
+
+/* Rectangle 751 */
+
+position: absolute;
+width: 252px;
+height: 205px;
+left: 0px;
+top: 0px;
+
+/* White */
+background: #ffffff;
+box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Icon/arrow-up */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 143px;
+top: 48px;
+
+/* Vector */
+
+position: absolute;
+left: 58.24%;
+right: 37.6%;
+top: 26.41%;
+bottom: 70.8%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 56.75%;
+right: 36.11%;
+top: 23.41%;
+bottom: 67.8%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* +0.25% */
+
+position: absolute;
+width: 51px;
+height: 23px;
+left: 171px;
+top: 46px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+/* Sec/100 */
+color: #1ecb4f;
+
+/* Amount */
+
+position: absolute;
+width: 88px;
+height: 42px;
+left: 30px;
+top: 108px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 86px;
+height: 21px;
+left: 30px;
+top: 155px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 336 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Rectangle 748 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 30px;
+top: 32px;
+
+/* Sec/100 */
+background: #3855ec;
+border-radius: 10px;
+
+/* Icon/litecoin(ltc) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 44px;
+top: 46px;
+
+/* BG 149 */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+/* Vector */
+
+position: absolute;
+left: 18.25%;
+right: 73.81%;
+top: 23.41%;
+bottom: 66.83%;
+
+/* White */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.46%;
+right: 73.02%;
+top: 22.44%;
+bottom: 65.85%;
+
+opacity: 0;
+
+/* Statistic */
+
+position: absolute;
+width: 534px;
+height: 442px;
+left: 863px;
+top: 149px;
+
+/* Rectangle 749 */
+
+position: absolute;
+width: 534px;
+height: 442px;
+left: 0px;
+top: 0px;
+
+/* White */
+background: #ffffff;
+box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+
+/* Months */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 424px;
+height: 16px;
+left: 83px;
+top: 394px;
+
+/* Text */
+
+width: 22px;
+height: 16px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text */
+
+width: 23px;
+height: 16px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Text */
+
+width: 26px;
+height: 16px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Text */
+
+width: 17px;
+height: 16px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Text */
+
+width: 23px;
+height: 16px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Text */
+
+width: 23px;
+height: 16px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Amount */
+
+position: absolute;
+width: 34px;
+height: 274px;
+left: 33px;
+top: 94px;
+
+/* Amount */
+
+position: absolute;
+width: 34px;
+height: 18px;
+left: 33px;
+top: 94px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Amount */
+
+position: absolute;
+width: 34px;
+height: 18px;
+left: 33px;
+top: 158px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Amount */
+
+position: absolute;
+width: 34px;
+height: 18px;
+left: 33px;
+top: 222px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Amount */
+
+position: absolute;
+width: 34px;
+height: 18px;
+left: 33px;
+top: 286px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Amount */
+
+position: absolute;
+width: 22px;
+height: 18px;
+left: 33px;
+top: 350px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Heading */
+
+position: absolute;
+width: 110px;
+height: 32px;
+left: 33px;
+top: 30px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* Line 54 */
+
+position: absolute;
+width: 424px;
+height: 0px;
+left: 83px;
+top: 359px;
+
+/* Stroke */
+border: 1px solid #e4e4e4;
+
+/* graphs */
+
+position: absolute;
+width: 428px;
+height: 106px;
+left: 83px;
+top: 123px;
+
+/* Vector 11 */
+
+position: absolute;
+width: 428px;
+height: 106px;
+left: 83px;
+top: 123px;
+
+/* tooltips */
+
+position: absolute;
+width: 81px;
+height: 183px;
+left: 220px;
+top: 176px;
+
+/* Rectangle 750 */
+
+position: absolute;
+width: 36px;
+height: 169px;
+left: 243px;
+top: 190px;
+
+background: linear-gradient(
+    360deg,
+    rgba(97, 84, 240, 0.3) 0%,
+    rgba(97, 84, 240, 0) 100%
+);
+
+/* Ellipse 70 */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 256px;
+top: 176px;
+
+/* Main/Linear */
+background: #6154f0;
+/* White */
+border: 2px solid #ffffff;
+
+/* Rectangle 751 */
+
+position: absolute;
+width: 81px;
+height: 32px;
+left: 220px;
+top: 193px;
+
+/* Main/Linear */
+background: #6154f0;
+box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+
+/* $25,240 */
+
+position: absolute;
+width: 56px;
+height: 21px;
+left: 233px;
+top: 199px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* Live Market */
+
+position: absolute;
+width: 692px;
+height: 358px;
+left: 302px;
+top: 621px;
+
+/* Heading */
+
+position: absolute;
+width: 121px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* row */
+
+position: absolute;
+width: 692px;
+height: 51px;
+left: 0px;
+top: 58px;
+
+/* Group 332 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 58px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 58px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 2px solid #e4e4e4;
+
+/* Icon/ethereum-(eth) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 13px;
+top: 71px;
+
+/* BG 121 */
+
+position: absolute;
+left: 1.88%;
+right: 94.65%;
+top: 19.83%;
+bottom: 73.46%;
+
+/* Vector */
+
+position: absolute;
+left: 2.84%;
+right: 95.61%;
+top: 23.82%;
+bottom: 74.09%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 3.09%;
+right: 95.87%;
+top: 22.41%;
+bottom: 76.28%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 3.73%;
+right: 95.46%;
+top: 20.57%;
+bottom: 77.05%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 2.68%;
+right: 96.51%;
+top: 20.58%;
+bottom: 77.02%;
+
+/* Main/Linear */
+background: #6154f0;
+
+/* Vector */
+
+position: absolute;
+left: 1.88%;
+right: 94.65%;
+top: 19.83%;
+bottom: 73.46%;
+
+opacity: 0;
+
+/* value */
+
+position: absolute;
+width: 81px;
+height: 21px;
+left: 387px;
+top: 87px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* date */
+
+position: absolute;
+width: 56px;
+height: 24px;
+left: 236px;
+top: 85px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Sec/100 */
+color: #1ecb4f;
+
+opacity: 0.8;
+
+/* name */
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 65px;
+top: 58px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 21px;
+left: 65px;
+top: 87px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 236px;
+top: 58px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 387px;
+top: 58px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* graphs */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 63px;
+
+/* Vector 5 */
+
+position: absolute;
+width: 162px;
+height: 33px;
+left: 530px;
+top: 63px;
+
+/* Main/Linear */
+border: 2px solid #6154f0;
+
+/* Vector 6 */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 63px;
+
+background: linear-gradient(
+    180.09deg,
+    rgba(0, 26, 255, 0.2) 0.07%,
+    rgba(0, 41, 255, 0) 99.92%
+);
+
+/* row */
+
+position: absolute;
+width: 692px;
+height: 51px;
+left: 0px;
+top: 141px;
+
+/* Group 332 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 141px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 141px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 2px solid #e4e4e4;
+
+/* Icon/bitcoin-(btc) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 13px;
+top: 154px;
+
+/* BG 203 */
+
+position: absolute;
+left: 1.88%;
+right: 94.65%;
+top: 43.02%;
+bottom: 50.28%;
+
+/* Vector */
+
+position: absolute;
+left: 3.26%;
+right: 95.71%;
+top: 46.58%;
+bottom: 52.63%;
+
+/* Sec/100 */
+background: #fabc1e;
+
+/* Vector */
+
+position: absolute;
+left: 2.17%;
+right: 94.94%;
+top: 43.58%;
+bottom: 50.84%;
+
+/* Sec/100 */
+background: #fabc1e;
+
+/* Vector */
+
+position: absolute;
+left: 3.26%;
+right: 95.86%;
+top: 45.37%;
+bottom: 53.84%;
+
+/* Sec/100 */
+background: #fabc1e;
+
+/* Vector */
+
+position: absolute;
+left: 1.88%;
+right: 94.65%;
+top: 43.02%;
+bottom: 50.28%;
+
+opacity: 0;
+
+/* value */
+
+position: absolute;
+width: 77px;
+height: 21px;
+left: 387px;
+top: 170px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* date */
+
+position: absolute;
+width: 51px;
+height: 24px;
+left: 236px;
+top: 168px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Sec/100 */
+color: #1ecb4f;
+
+opacity: 0.8;
+
+/* name */
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 65px;
+top: 141px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 21px;
+left: 65px;
+top: 170px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 236px;
+top: 141px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 387px;
+top: 141px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* graphs */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 146px;
+
+/* Vector 5 */
+
+position: absolute;
+width: 162px;
+height: 33px;
+left: 530px;
+top: 146px;
+
+/* Sec/100 */
+border: 2px solid #fabc1e;
+
+/* Vector 6 */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 146px;
+
+background: linear-gradient(
+    180.09deg,
+    rgba(250, 188, 30, 0.2) 0.07%,
+    rgba(250, 188, 30, 0) 99.92%
+);
+
+/* row */
+
+position: absolute;
+width: 692px;
+height: 51px;
+left: 0px;
+top: 224px;
+
+/* Group 332 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 224px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 224px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 2px solid #e4e4e4;
+
+/* Icon/litecoin(ltc) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 13px;
+top: 237px;
+
+/* BG 149 */
+
+position: absolute;
+left: 1.88%;
+right: 94.65%;
+top: 66.2%;
+bottom: 27.09%;
+
+/* Vector */
+
+position: absolute;
+left: 2.17%;
+right: 94.94%;
+top: 66.76%;
+bottom: 27.65%;
+
+/* Sec/100 */
+background: #3855ec;
+
+/* Vector */
+
+position: absolute;
+left: 1.88%;
+right: 94.65%;
+top: 66.2%;
+bottom: 27.09%;
+
+opacity: 0;
+
+/* value */
+
+position: absolute;
+width: 72px;
+height: 21px;
+left: 387px;
+top: 253px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* date */
+
+position: absolute;
+width: 49px;
+height: 24px;
+left: 236px;
+top: 251px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Sec/100 */
+color: #ff8d4d;
+
+opacity: 0.8;
+
+/* name */
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 65px;
+top: 224px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 21px;
+left: 65px;
+top: 253px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 236px;
+top: 224px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 387px;
+top: 224px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* graphs */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 229px;
+
+/* Vector 5 */
+
+position: absolute;
+width: 162px;
+height: 33px;
+left: 530px;
+top: 229px;
+
+/* Sec/100 */
+border: 2px solid #3855ec;
+
+/* Vector 6 */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 229px;
+
+background: linear-gradient(
+    180deg,
+    rgba(56, 85, 236, 0.2) 0%,
+    rgba(56, 85, 236, 0) 100%
+);
+
+/* row */
+
+position: absolute;
+width: 692px;
+height: 51px;
+left: 0px;
+top: 307px;
+
+/* Group 332 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 307px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 307px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 2px solid #e4e4e4;
+
+/* Icon/cardano-(ada) */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 14px;
+top: 321px;
+
+/* BG 201 */
+
+position: absolute;
+left: 2.02%;
+right: 94.51%;
+top: 89.66%;
+bottom: 3.63%;
+
+/* Group */
+
+position: absolute;
+left: 2.49%;
+right: 94.98%;
+top: 90.84%;
+bottom: 4.75%;
+
+/* Vector */
+
+position: absolute;
+left: 4.36%;
+right: 95.35%;
+top: 91.9%;
+bottom: 7.54%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 4.36%;
+right: 95.35%;
+top: 93.58%;
+bottom: 5.87%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 4.73%;
+right: 94.98%;
+top: 92.74%;
+bottom: 6.7%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 2.86%;
+right: 96.85%;
+top: 91.9%;
+bottom: 7.54%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 2.86%;
+right: 96.85%;
+top: 93.58%;
+bottom: 5.87%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 2.49%;
+right: 97.23%;
+top: 92.74%;
+bottom: 6.7%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 4.18%;
+right: 95.53%;
+top: 90.84%;
+bottom: 8.6%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.05%;
+right: 96.66%;
+top: 90.84%;
+bottom: 8.6%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.62%;
+right: 96.09%;
+top: 91.06%;
+bottom: 8.38%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 4.18%;
+right: 95.53%;
+top: 94.69%;
+bottom: 4.75%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.05%;
+right: 96.66%;
+top: 94.69%;
+bottom: 4.75%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.62%;
+right: 96.09%;
+top: 94.47%;
+bottom: 4.97%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 3.07%;
+right: 95.56%;
+top: 91.83%;
+bottom: 5.8%;
+
+/* Vector */
+
+position: absolute;
+left: 3.83%;
+right: 95.81%;
+top: 91.83%;
+bottom: 7.47%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.32%;
+right: 96.32%;
+top: 91.83%;
+bottom: 7.47%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 4.08%;
+right: 95.56%;
+top: 92.67%;
+bottom: 6.63%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.07%;
+right: 96.57%;
+top: 92.67%;
+bottom: 6.63%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.32%;
+right: 96.32%;
+top: 93.51%;
+bottom: 5.8%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 3.83%;
+right: 95.81%;
+top: 93.51%;
+bottom: 5.8%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 3.63%;
+right: 96.12%;
+top: 90.1%;
+bottom: 9.41%;
+
+/* Vector */
+
+position: absolute;
+left: 3.63%;
+right: 96.12%;
+top: 90.1%;
+bottom: 9.41%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 4.41%;
+right: 95.38%;
+top: 90.25%;
+bottom: 9.33%;
+
+/* Vector */
+
+position: absolute;
+left: 4.41%;
+right: 95.38%;
+top: 90.25%;
+bottom: 9.33%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 2.89%;
+right: 96.89%;
+top: 90.25%;
+bottom: 9.33%;
+
+/* Vector */
+
+position: absolute;
+left: 2.89%;
+right: 96.89%;
+top: 90.25%;
+bottom: 9.33%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 3.63%;
+right: 96.12%;
+top: 95.42%;
+bottom: 4.08%;
+
+/* Vector */
+
+position: absolute;
+left: 3.63%;
+right: 96.12%;
+top: 95.42%;
+bottom: 4.08%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 4.41%;
+right: 95.38%;
+top: 95.35%;
+bottom: 4.23%;
+
+/* Vector */
+
+position: absolute;
+left: 4.41%;
+right: 95.38%;
+top: 95.35%;
+bottom: 4.23%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 2.89%;
+right: 96.89%;
+top: 95.35%;
+bottom: 4.23%;
+
+/* Vector */
+
+position: absolute;
+left: 2.89%;
+right: 96.89%;
+top: 95.35%;
+bottom: 4.23%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 2.12%;
+right: 97.63%;
+top: 92.77%;
+bottom: 6.74%;
+
+/* Vector */
+
+position: absolute;
+left: 2.12%;
+right: 97.63%;
+top: 92.77%;
+bottom: 6.74%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 2.46%;
+right: 97.33%;
+top: 94.2%;
+bottom: 5.38%;
+
+/* Vector */
+
+position: absolute;
+left: 2.46%;
+right: 97.33%;
+top: 94.2%;
+bottom: 5.38%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 2.46%;
+right: 97.33%;
+top: 91.41%;
+bottom: 8.17%;
+
+/* Vector */
+
+position: absolute;
+left: 2.46%;
+right: 97.33%;
+top: 91.41%;
+bottom: 8.17%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 5.15%;
+right: 94.6%;
+top: 92.77%;
+bottom: 6.74%;
+
+/* Vector */
+
+position: absolute;
+left: 5.15%;
+right: 94.6%;
+top: 92.77%;
+bottom: 6.74%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 4.85%;
+right: 94.93%;
+top: 94.2%;
+bottom: 5.38%;
+
+/* Vector */
+
+position: absolute;
+left: 4.85%;
+right: 94.93%;
+top: 94.2%;
+bottom: 5.38%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Group */
+
+position: absolute;
+left: 4.85%;
+right: 94.93%;
+top: 91.41%;
+bottom: 8.17%;
+
+/* Vector */
+
+position: absolute;
+left: 4.85%;
+right: 94.93%;
+top: 91.41%;
+bottom: 8.17%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 2.02%;
+right: 94.51%;
+top: 89.66%;
+bottom: 3.63%;
+
+opacity: 0;
+
+/* value */
+
+position: absolute;
+width: 73px;
+height: 21px;
+left: 387px;
+top: 336px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* date */
+
+position: absolute;
+width: 51px;
+height: 24px;
+left: 236px;
+top: 334px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Sec/100 */
+color: #1ecb4f;
+
+opacity: 0.8;
+
+/* name */
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 65px;
+top: 307px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+/* Text/100 */
+color: #1a1a1a;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 21px;
+left: 65px;
+top: 336px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 236px;
+top: 307px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* text */
+
+position: absolute;
+width: 104px;
+height: 18px;
+left: 387px;
+top: 307px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* Text/10 */
+color: #9e9e9e;
+
+opacity: 0.8;
+
+/* graphs */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 312px;
+
+/* Vector 5 */
+
+position: absolute;
+width: 162px;
+height: 33px;
+left: 530px;
+top: 312px;
+
+/* Sec/100 */
+border: 2px solid #1ecb4f;
+
+/* Vector 6 */
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 530px;
+top: 312px;
+
+background: linear-gradient(
+    180deg,
+    rgba(30, 203, 79, 0.2) 0%,
+    rgba(30, 203, 79, 0) 100%
+);
+
+/* Transaction */
+
+position: absolute;
+width: 320px;
+height: 352px;
+left: 1054px;
+top: 623px;
+
+/* Heading */
+
+position: absolute;
+width: 140px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* Group 328 */
+
+position: absolute;
+width: 320px;
+height: 50px;
+left: 0px;
+top: 56px;
+
+/* amount */
+
+position: absolute;
+width: 62px;
+height: 24px;
+left: 258px;
+top: 56px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 64px;
+height: 21px;
+left: 50px;
+top: 85px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* name */
+
+position: absolute;
+width: 79px;
+height: 24px;
+left: 50px;
+top: 56px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 84px;
+height: 21px;
+left: 236px;
+top: 85px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 332 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 56px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 56px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 1px solid #e4e4e4;
+
+/* Icon/arrow-up */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 64px;
+
+/* Vector */
+
+position: absolute;
+left: 4.25%;
+right: 91.75%;
+top: 21.31%;
+bottom: 76.7%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 5.09%;
+right: 92.59%;
+top: 19.89%;
+bottom: 78.98%;
+
+/* Sec/100 */
+background: #1ecb4f;
+
+/* Vector */
+
+position: absolute;
+left: 2.5%;
+right: 90%;
+top: 18.18%;
+bottom: 75%;
+
+/* Sec/100 */
+background: #1ecb4f;
+opacity: 0;
+transform: rotate(-180deg);
+
+/* Group 340 */
+
+position: absolute;
+width: 320px;
+height: 50px;
+left: 0px;
+top: 138px;
+
+/* amount */
+
+position: absolute;
+width: 52px;
+height: 24px;
+left: 268px;
+top: 138px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 26px;
+height: 21px;
+left: 50px;
+top: 167px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* name */
+
+position: absolute;
+width: 56px;
+height: 24px;
+left: 50px;
+top: 138px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 83px;
+height: 21px;
+left: 237px;
+top: 167px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 332 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 138px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 138px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 1px solid #e4e4e4;
+
+/* Icon/arrow-bottom */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 146px;
+
+/* Vector */
+
+position: absolute;
+left: 4.25%;
+right: 91.75%;
+top: 43.18%;
+bottom: 54.83%;
+
+/* Sec/100 */
+background: #ff8d4d;
+
+/* Vector */
+
+position: absolute;
+left: 5.09%;
+right: 92.59%;
+top: 45.45%;
+bottom: 53.41%;
+
+/* Sec/100 */
+background: #ff8d4d;
+
+/* Vector */
+
+position: absolute;
+left: 2.5%;
+right: 90%;
+top: 41.48%;
+bottom: 51.7%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* Group 341 */
+
+position: absolute;
+width: 320px;
+height: 50px;
+left: 0px;
+top: 220px;
+
+/* amount */
+
+position: absolute;
+width: 67px;
+height: 24px;
+left: 253px;
+top: 220px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 26px;
+height: 21px;
+left: 50px;
+top: 249px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* name */
+
+position: absolute;
+width: 56px;
+height: 24px;
+left: 50px;
+top: 220px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 84px;
+height: 21px;
+left: 236px;
+top: 249px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 332 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 220px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 220px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 1px solid #e4e4e4;
+
+/* Icon/arrow-bottom */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 228px;
+
+/* Vector */
+
+position: absolute;
+left: 4.25%;
+right: 91.75%;
+top: 66.48%;
+bottom: 31.53%;
+
+/* Sec/100 */
+background: #ff8d4d;
+
+/* Vector */
+
+position: absolute;
+left: 5.09%;
+right: 92.59%;
+top: 68.75%;
+bottom: 30.11%;
+
+/* Sec/100 */
+background: #ff8d4d;
+
+/* Vector */
+
+position: absolute;
+left: 2.5%;
+right: 90%;
+top: 64.77%;
+bottom: 28.41%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+/* Group 342 */
+
+position: absolute;
+width: 320px;
+height: 50px;
+left: 0px;
+top: 302px;
+
+/* amount */
+
+position: absolute;
+width: 63px;
+height: 24px;
+left: 257px;
+top: 302px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 26px;
+height: 21px;
+left: 50px;
+top: 331px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* name */
+
+position: absolute;
+width: 63px;
+height: 24px;
+left: 50px;
+top: 302px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/100 */
+color: #1a1a1a;
+
+/* text */
+
+position: absolute;
+width: 88px;
+height: 21px;
+left: 232px;
+top: 331px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Text/10 */
+color: #9e9e9e;
+
+/* Group 332 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 302px;
+
+/* Ellipse 69 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 302px;
+
+/* White */
+background: #ffffff;
+/* Stroke */
+border: 1px solid #e4e4e4;
+
+/* Icon/arrow-bottom */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 310px;
+
+/* Vector */
+
+position: absolute;
+left: 4.25%;
+right: 91.75%;
+top: 89.77%;
+bottom: 8.24%;
+
+/* Sec/100 */
+background: #ff8d4d;
+
+/* Vector */
+
+position: absolute;
+left: 5.09%;
+right: 92.59%;
+top: 92.05%;
+bottom: 6.82%;
+
+/* Sec/100 */
+background: #ff8d4d;
+
+/* Vector */
+
+position: absolute;
+left: 2.5%;
+right: 90%;
+top: 88.07%;
+bottom: 5.11%;
+
+opacity: 0;
+transform: rotate(-180deg);
