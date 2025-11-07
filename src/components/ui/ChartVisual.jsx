@@ -1,208 +1,109 @@
 import { ArrowDownRight, ArrowUpRight } from "lucide-react";
 
-const VIEWBOX_WIDTH = 320;
-const VIEWBOX_HEIGHT = 120;
-const TOP_PADDING = 16;
-const BOTTOM_PADDING = 28;
+const VIEWBOX_WIDTH = 430;
+const VIEWBOX_HEIGHT = 108;
+const GRID_TOP = 4;
+const GRID_BOTTOM = VIEWBOX_HEIGHT - 4;
 
-const buildChartGeometry = (timeline) => {
-    const baseline = VIEWBOX_HEIGHT - BOTTOM_PADDING;
-    const chartHeight = baseline - TOP_PADDING;
-    const gridLines = [
-        { y: baseline, dashed: false },
-        { y: baseline - chartHeight / 2, dashed: true },
-        { y: TOP_PADDING, dashed: true },
-    ];
-
-    if (!Array.isArray(timeline) || timeline.length < 2) {
-        return {
-            linePath: "",
-            areaPath: "",
-            baseline,
-            gridLines,
-            points: [],
-        };
-    }
-
-    const values = timeline.map((point) => point.value);
-    const maxValue = Math.max(...values);
-    const minValue = Math.min(...values);
-    const range = maxValue - minValue || 1;
-
-    const points = timeline.map((point, index) => {
-        const x = (index / (timeline.length - 1)) * VIEWBOX_WIDTH;
-        const normalized = (point.value - minValue) / range;
-        const y = TOP_PADDING + (1 - normalized) * chartHeight;
-        return { x, y };
+const createGridLines = (count) => {
+    const minimumTicks = Math.max(count, 2);
+    const span = GRID_BOTTOM - GRID_TOP;
+    return Array.from({ length: minimumTicks }, (_, index) => {
+        const ratio = index / (minimumTicks - 1);
+        const y = GRID_TOP + ratio * span;
+        const isBaseline = index === minimumTicks - 1;
+        return { y, dashed: !isBaseline };
     });
-
-    let linePath = `M ${points[0].x} ${points[0].y}`;
-    let areaPath = `M ${points[0].x} ${baseline} L ${points[0].x} ${points[0].y}`;
-
-    for (let index = 0; index < points.length - 1; index += 1) {
-        const current = points[index];
-        const next = points[index + 1];
-        const segmentWidth = next.x - current.x;
-        const controlOffset = segmentWidth / 2.2;
-        const controlOneX = current.x + controlOffset;
-        const controlTwoX = next.x - controlOffset;
-        const segment = ` C ${controlOneX} ${current.y}, ${controlTwoX} ${next.y}, ${next.x} ${next.y}`;
-        linePath += segment;
-        areaPath += segment;
-    }
-
-    areaPath += ` L ${points[points.length - 1].x} ${baseline} Z`;
-
-    return {
-        linePath,
-        areaPath,
-        baseline,
-        gridLines,
-        points,
-    };
 };
 
 const ChartVisual = ({ summary, timeline }) => {
     const isTrendingUp = summary.changeDirection === "up";
-    const changeColor = isTrendingUp ? "text-success" : "text-danger";
+    const changeColor = isTrendingUp ? "text-positive" : "text-negative";
     const DirectionIcon = isTrendingUp ? ArrowUpRight : ArrowDownRight;
-    const geometry = buildChartGeometry(timeline);
-    const gradientId = `chartGradient-${summary.pair
+    const yAxisLabels = summary.yAxisLabels ?? [];
+    const gridLines = createGridLines(yAxisLabels.length || 3);
+    const gradientId = `chartGradient-${summary.title
         .replace(/[^a-z0-9]/gi, "")
         .toLowerCase()}`;
+    const hasTimeline = Array.isArray(timeline) && timeline.length > 0;
 
     return (
-        <section className="flex flex-col gap-6 rounded-2xl bg-surface-alt p-6 shadow-card lg:p-8">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <section className="flex flex-col gap-6 rounded-[20px] bg-white p-6 shadow-card">
+            <div className="flex items-center justify-between">
                 <div>
-                    <p className="text-xs uppercase tracking-[0.35em] text-muted">
-                        {summary.pair}
-                    </p>
-                    <div className="mt-3 flex items-end gap-4">
-                        <span className="text-3xl font-semibold text-white lg:text-4xl">
-                            {summary.price}
+                    <h2 className="text-[21px] font-semibold text-heading">
+                        {summary.title}
+                    </h2>
+                    <div className="mt-2 flex items-center gap-3">
+                        <span className="text-[34px] font-semibold text-heading">
+                            {summary.currentValue}
                         </span>
                         <span
-                            className={`flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs font-semibold ${changeColor}`}
+                            className={`flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 text-[14px] font-medium ${changeColor}`}
                         >
                             <DirectionIcon aria-hidden className="h-4 w-4" />
                             {summary.changeLabel}
                         </span>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 gap-4 text-xs text-muted sm:text-sm">
-                    <div className="flex flex-col gap-1">
-                        <span className="text-white/70">24H High</span>
-                        <span className="font-medium text-white">
-                            {summary.high}
-                        </span>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                        <span className="text-white/70">24H Low</span>
-                        <span className="font-medium text-white">
-                            {summary.low}
-                        </span>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                        <span className="text-white/70">Volume</span>
-                        <span className="font-medium text-white">
-                            {summary.volume}
-                        </span>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                        <span className="text-white/70">Market Cap</span>
-                        <span className="font-medium text-white">
-                            {summary.marketCap}
-                        </span>
-                    </div>
-                </div>
             </div>
 
-            <div className="relative">
-                <div
-                    className="absolute inset-0 rounded-2xl bg-gradient-to-b from-primary/10 via-primary/5 to-transparent"
-                    aria-hidden="true"
-                />
-                <svg
-                    viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`}
-                    className="relative h-56 w-full"
-                    preserveAspectRatio="none"
-                >
-                    <defs>
-                        <linearGradient
-                            id={gradientId}
-                            x1="0"
-                            x2="0"
-                            y1="0"
-                            y2="1"
-                            gradientUnits="objectBoundingBox"
-                        >
-                            <stop
-                                offset="0%"
-                                stopColor="rgba(99,102,241,0.35)"
-                            />
-                            <stop
-                                offset="100%"
-                                stopColor="rgba(99,102,241,0)"
-                            />
-                        </linearGradient>
-                    </defs>
-                    {geometry.areaPath ? (
-                        <path
-                            d={geometry.areaPath}
-                            fill={`url(#${gradientId})`}
-                            opacity="0.55"
-                        />
-                    ) : null}
-                    {geometry.linePath ? (
-                        <path
-                            d={geometry.linePath}
-                            stroke="#6366F1"
-                            strokeWidth="3"
-                            fill="none"
-                            strokeLinecap="round"
-                        />
-                    ) : null}
-                    <g stroke="rgba(148,163,184,0.35)" strokeWidth="1">
-                        {geometry.gridLines.map((line) => (
+            <div className="flex gap-6">
+                <div className="flex w-16 flex-col justify-between text-[12px] text-muted">
+                    {yAxisLabels.map((label) => (
+                        <span key={label} className="leading-tight">
+                            {label}
+                        </span>
+                    ))}
+                </div>
+                <div className="flex-1">
+                    <svg
+                        viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`}
+                        className="h-[180px] w-full"
+                        preserveAspectRatio="none"
+                    >
+                        <defs>
+                            <linearGradient
+                                id={gradientId}
+                                x1="11.4263"
+                                y1="64.5"
+                                x2="428.997"
+                                y2="60.6953"
+                                gradientUnits="userSpaceOnUse"
+                            >
+                                <stop offset="0" stopColor="#B4AEFE" />
+                                <stop offset="1" stopColor="#2618CA" />
+                            </linearGradient>
+                        </defs>
+                        {gridLines.map((line) => (
                             <line
                                 key={line.y}
                                 x1="0"
                                 x2={VIEWBOX_WIDTH}
                                 y1={line.y}
                                 y2={line.y}
+                                stroke="#E4E4E4"
                                 strokeDasharray={
                                     line.dashed ? "4 4" : undefined
                                 }
                             />
                         ))}
-                    </g>
-                    {timeline.map((point, index) => {
-                        const coordinate = geometry.points[index];
-                        const xPosition = coordinate
-                            ? coordinate.x
-                            : (index / Math.max(timeline.length - 1, 1)) *
-                              VIEWBOX_WIDTH;
-                        const anchor =
-                            index === 0
-                                ? "start"
-                                : index === timeline.length - 1
-                                ? "end"
-                                : "middle";
-
-                        return (
-                            <text
-                                key={point.label}
-                                x={xPosition}
-                                y={geometry.baseline + 12}
-                                textAnchor={anchor}
-                                className="fill-muted text-[10px]"
-                            >
-                                {point.label}
-                            </text>
-                        );
-                    })}
-                </svg>
+                        <path
+                            d="M1 65C36.9708 65 53.6529 11.5 88.0597 11.5C122.467 11.5 148.764 60 179 60C209.236 60 203.359 38.5 243.5 38.5C283.641 38.5 272.605 107 318.481 107C364.357 107 328.386 1 429 1"
+                            stroke={`url(#${gradientId})`}
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            fill="none"
+                        />
+                    </svg>
+                    {hasTimeline ? (
+                        <div className="mt-4 flex items-center justify-between text-[12px] text-muted">
+                            {timeline.map((point) => (
+                                <span key={point.label}>{point.label}</span>
+                            ))}
+                        </div>
+                    ) : null}
+                </div>
             </div>
         </section>
     );

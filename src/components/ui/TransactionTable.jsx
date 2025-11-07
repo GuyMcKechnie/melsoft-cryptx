@@ -1,110 +1,69 @@
-import { Download, AlertTriangle, CheckCircle2, Clock3 } from "lucide-react";
-import { statusStyles } from "../../data/transactionData";
+import { ArrowDownLeft, ArrowUpRight } from "lucide-react";
 
-const headers = [
-    "Reference",
-    "Asset",
-    "Type",
-    "Amount",
-    "Value",
-    "Status",
-    "Counterparty",
-    "Timestamp",
-];
-
-const statusIcons = {
-    Completed: CheckCircle2,
-    Pending: Clock3,
-    Failed: AlertTriangle,
+const directionStyles = {
+    in: {
+        label: "Incoming",
+        textClass: "text-positive",
+        badgeClass: "bg-positive/10",
+        Icon: ArrowDownLeft,
+    },
+    out: {
+        label: "Outgoing",
+        textClass: "text-negative",
+        badgeClass: "bg-negative/10",
+        Icon: ArrowUpRight,
+    },
 };
 
 const TransactionTable = ({ rows }) => (
-    <section className="rounded-2xl bg-surface-alt p-6 shadow-subtle lg:p-8">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+    <section className="rounded-[20px] bg-white p-6 shadow-card">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <div>
-                <h2 className="text-lg font-semibold text-white">
+                <h2 className="text-lg font-semibold text-heading">
                     Recent Transactions
                 </h2>
                 <p className="text-sm text-muted">
-                    All activity is synced from connected institutional
-                    accounts.
+                    Synced from connected institutional accounts.
                 </p>
             </div>
         </div>
 
-        <div className="mt-6 overflow-x-auto">
-            <table className="min-w-full border-separate border-spacing-y-3 text-left text-sm text-white">
-                <thead className="text-xs uppercase tracking-widest text-muted">
-                    <tr>
-                        {headers.map((header) => (
-                            <th key={header} className="px-4 py-2 font-medium">
-                                {header}
-                            </th>
-                        ))}
-                    </tr>
-                </thead>
-                <tbody>
-                    {rows.map((row) => {
-                        const Icon = statusIcons[row.status];
-                        return (
-                            <tr
-                                key={row.id}
-                                className="rounded-xl bg-surface transition hover:bg-white/5"
+        <div className="mt-6 flex flex-col gap-4">
+            {rows.map((row) => {
+                const direction =
+                    directionStyles[row.direction] ?? directionStyles.out;
+                const { Icon, textClass, badgeClass, label } = direction;
+
+                return (
+                    <div
+                        key={row.id}
+                        className="flex flex-col gap-4 rounded-[16px] border border-border px-4 py-3 transition hover:border-primary/40 sm:flex-row sm:items-center sm:justify-between"
+                    >
+                        <div className="min-w-[140px]">
+                            <p className="text-sm font-semibold text-heading">
+                                {row.asset}
+                            </p>
+                            <p className="text-xs text-muted">{row.type}</p>
+                        </div>
+                        <div className="flex flex-1 items-center justify-between gap-4 sm:justify-end">
+                            <span
+                                className={`flex items-center gap-2 rounded-full px-3 py-1 text-xs font-medium ${badgeClass} ${textClass}`}
                             >
-                                <td className="rounded-l-xl px-4 py-4 text-xs font-semibold text-muted-soft">
-                                    {row.id}
-                                </td>
-                                <td className="px-4 py-4">
-                                    <div className="flex items-center gap-3">
-                                        <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-xs font-semibold text-white">
-                                            {row.symbol}
-                                        </span>
-                                        <div className="flex flex-col">
-                                            <span className="text-sm font-semibold text-white">
-                                                {row.asset}
-                                            </span>
-                                            <span className="text-xs text-muted">
-                                                {row.symbol}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td className="px-4 py-4 text-sm text-muted">
-                                    {row.type}
-                                </td>
-                                <td className="px-4 py-4 text-sm text-white">
+                                <Icon aria-hidden className="h-4 w-4" />
+                                {label}
+                            </span>
+                            <div className="text-right">
+                                <p className="text-sm font-semibold text-heading">
                                     {row.amount}
-                                </td>
-                                <td className="px-4 py-4 text-sm text-white">
-                                    {row.value}
-                                </td>
-                                <td className="px-4 py-4">
-                                    <span
-                                        className={`flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold ${
-                                            statusStyles[row.status] ??
-                                            "bg-white/10 text-white"
-                                        }`}
-                                    >
-                                        {Icon ? (
-                                            <Icon
-                                                aria-hidden
-                                                className="h-4 w-4"
-                                            />
-                                        ) : null}
-                                        {row.status}
-                                    </span>
-                                </td>
-                                <td className="px-4 py-4 text-sm text-muted">
-                                    {row.counterparty}
-                                </td>
-                                <td className="rounded-r-xl px-4 py-4 text-sm text-muted">
+                                </p>
+                                <p className="text-xs text-muted">
                                     {row.timestamp}
-                                </td>
-                            </tr>
-                        );
-                    })}
-                </tbody>
-            </table>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                );
+            })}
         </div>
     </section>
 );

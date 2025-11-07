@@ -4,13 +4,11 @@ import MainContent from "./components/layout/MainContent";
 import "./index.css";
 
 const App = () => (
-    <div className="min-h-screen bg-background text-white">
-        <div className="flex w-full flex-col lg:flex-row">
-            <Sidebar />
-            <div className="flex h-full min-h-screen w-full flex-col lg:ml-72">
-                <Header />
-                <MainContent />
-            </div>
+    <div className="min-h-screen bg-white py-6 px-6 text-heading mx-auto flex h-full w-full overflow-hidden shadow-card">
+        <Sidebar />
+        <div className="flex flex-1 flex-col">
+            <Header />
+            <MainContent />
         </div>
     </div>
 );
