@@ -1,47 +1,125 @@
 # CryptX Dashboard
 
-CryptX is a responsive, pixel-focused crypto asset dashboard built with React and Tailwind CSS. The UI follows the Figma design specification and showcases component-driven architecture, data modules, and bespoke visual styling without third-party charting libraries.
+A modern, responsive cryptocurrency asset dashboard built with React 19 and Tailwind CSS. CryptX provides real-time market insights, transaction tracking, and performance analytics with a clean, pixel-perfect UI designed for optimal user experience.
+
+## Features
+
+-   **Live Market Data** – Real-time cryptocurrency price tracking with visual sparklines
+-   **Portfolio Metrics** – Track total balance, revenue, and assets at a glance
+-   **Interactive Charts** – Custom SVG-based BTC price visualization without third-party libraries
+-   **Transaction History** – Comprehensive transaction table with status indicators
+-   **Responsive Design** – Fully responsive layout optimized for desktop and mobile
+-   **Component Architecture** – Modular, reusable React components following best practices
 
 ## Tech Stack
 
--   React 19 with functional components running on Vite
--   Tailwind CSS for all styling and responsive behaviour
--   Lucide icons for navigation and status affordances
--   Dynamic SVG/Tailwind implementation for chart visuals (no charting libs)
--   Hardcoded data modules for metrics, ZAR-denominated price timeline, and transactions
+-   **React 19** – Latest React with functional components and hooks
+-   **Vite 5.4** – Next-generation frontend tooling for blazing-fast development
+-   **Tailwind CSS 3.4** – Utility-first CSS framework for rapid UI development
+-   **Lucide React** – Beautiful, consistent icon library
+-   **Custom SVG Charts** – Bespoke data visualization without heavy charting dependencies
 
-## Getting Started
+## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/GuyMcKechnie/melsoft-cryptx.git
+
+# Navigate to project directory
+cd melsoft-cryptx
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
-The app runs on [http://localhost:5173](http://localhost:5173) by default.
+The application will be available at [http://localhost:5173](http://localhost:5173)
+
+## Available Scripts
+
+| Command           | Description                                               |
+| ----------------- | --------------------------------------------------------- |
+| `npm run dev`     | Start Vite development server with hot module replacement |
+| `npm run build`   | Create optimized production build                         |
+| `npm run preview` | Preview production build locally                          |
 
 ## Project Structure
 
 ```text
-src/
-  assets/               # Brand assets and icons
-  components/
-    layout/             # High-level layout (Sidebar, Header, MainContent)
-    ui/                 # Reusable UI pieces (MetricCard, ChartVisual, TransactionTable)
-  data/                 # Hardcoded data sources for UI rendering
-  App.jsx               # Root dashboard composition
-  index.css             # Tailwind entry point + global styles
+melsoft-cryptx/
+├── public/
+│   └── robots.txt              # SEO crawler instructions
+├── src/
+│   ├── assets/                 # Static assets (icons, images)
+│   │   ├── btc.png
+│   │   ├── cardano.png
+│   │   ├── eth.png
+│   │   └── lite.png
+│   ├── components/
+│   │   ├── layout/             # Layout components
+│   │   │   ├── Header.jsx      # Top navigation and user controls
+│   │   │   ├── MainContent.jsx # Main dashboard content area
+│   │   │   └── Sidebar.jsx     # Navigation sidebar
+│   │   └── ui/                 # Reusable UI components
+│   │       ├── ChartVisual.jsx       # BTC price chart visualization
+│   │       ├── LiveMarketCard.jsx    # Crypto market card with sparkline
+│   │       ├── MetricCard.jsx        # Dashboard metric display
+│   │       └── TransactionTable.jsx  # Transaction history table
+│   ├── data/                   # Static data modules
+│   │   ├── chartStaticData.js  # BTC chart timeline and labels
+│   │   └── transactionData.js  # Market data and transactions
+│   ├── App.jsx                 # Root application component
+│   ├── main.jsx                # React DOM entry point
+│   └── index.css               # Global styles and Tailwind imports
+├── index.html                  # HTML entry point
+├── package.json                # Project dependencies and scripts
+├── postcss.config.js           # PostCSS configuration
+├── tailwind.config.js          # Tailwind customization
+├── vite.config.js              # Vite build configuration
+└── README.md                   # This file
 ```
 
-## Available Scripts
+## Design Philosophy
 
--   `npm run dev` – run the development server
--   `npm run build` – create an optimized production build
--   `npm test` – execute the component test suite
+### Component-Driven Architecture
 
-## Design & Implementation Notes
+Each UI element is built as a standalone, reusable component with clear props interfaces, making the codebase maintainable and scalable.
 
--   Sidebar remains fixed on large screens and adapts to a compact navigation for small screens.
--   Metric cards, chart, and table consume static data via props to highlight reusable patterns.
--   The BTC price visual generates an SVG path at runtime from timeline data, maintaining fidelity while remaining framework-agnostic.
--   Values are currently expressed in South African Rand (ZAR) within the data modules.
--   Custom colour tokens, shadows, and typography are defined inside `tailwind.config.js` for fidelity.
+### Custom Visualizations
+
+Rather than relying on heavy charting libraries, CryptX implements lightweight SVG-based visualizations that render dynamically from data, ensuring fast load times and complete styling control.
+
+### Responsive First
+
+The dashboard adapts seamlessly across devices:
+
+-   **Desktop** – Full sidebar navigation with expanded metrics
+-   **Tablet** – Optimized grid layouts
+-   **Mobile** – Compact navigation and stacked components
+
+### Tailwind Customization
+
+Custom design tokens defined in `tailwind.config.js`:
+
+-   Color palette matching brand identity
+-   Typography scale for hierarchy
+-   Custom shadows and spacing
+-   Responsive breakpoints
+
+## Configuration Files
+
+-   **`vite.config.js`** – Vite build and dev server settings with React plugin
+-   **`tailwind.config.js`** – Custom Tailwind theme and utilities
+-   **`postcss.config.js`** – PostCSS plugins including Tailwind and Autoprefixer
+
+## Data Management
+
+Currently uses static data modules for demonstration:
+
+-   **Market Data** – Live crypto prices and sparkline data in `transactionData.js`
+-   **Chart Timeline** – BTC price history in `chartStaticData.js`
+-   **Transaction Records** – Sample transaction history with status tracking
+
+_Note: These can be easily replaced with API calls to live cryptocurrency data sources._
