@@ -3,7 +3,7 @@ export const btcSummary = {
     currentValue: '$25,240',
     changeLabel: '+0.25%',
     changeDirection: 'up',
-    yAxisLabels: ['$800', '$600', '$400', '$200', '$0'],
+    yAxisLabels: ['$25,000', '$20,000', '$15,000', '$10,000', '$5,000'],
 };
 
 export const chartTimeline = [
